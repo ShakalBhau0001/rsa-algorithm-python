@@ -119,8 +119,14 @@ It does **not provide real-world cryptographic security** and must not be used i
 
 ## 🪪 Author
 
-> **Shakal Bhau**
+> **Developer: Shakal Bhau**
 
-> GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)
+> **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
+
+## ⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
 
 ---
