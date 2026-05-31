@@ -12,9 +12,11 @@ It is created as a **learning and academic project** to understand how **public-
 ```bash
 rsa-algorithm-python/
 │
-├── app.py            # RSA algorithm implementation (CLI based)
-├── LICENSE           # Project license
-└── README.md         # Project documentation
+├── app.py              # Clean CLI Version
+├── interactive.py      # Rich CLI Version
+├── requirements.txt    # Project Requirements
+├── LICENSE             # Project license
+└── README.md           # Project documentation
 ```
 
 ---
@@ -40,15 +42,22 @@ rsa-algorithm-python/
 - Minimal dependencies
 - Ideal for students and beginners in cryptography
 
+### 🎨 Rich CLI Interface
+- Colored terminal output
+- Structured key display tables
+- Styled panels for encryption/decryption results
+- Better user experience and readability
+
 ---
 
 ## 🛠 Technologies Used
 
-| Technology             | Role                        |
+| **Technology**             | **Role**                        |
 | ---------------------- | --------------------------- |
-| **Python 3**           | Core programming language   |
-| **math.gcd**           | Valid public key selection  |
-| **Modular Arithmetic** | RSA encryption & decryption |
+| **Python 3**           | **Core programming language**   |
+| **math.gcd**           | **Valid public key selection**  |
+| **Rich**                   | **Interactive CLI interface**    |
+| **Modular Arithmetic**     | **RSA operations**               |
 
 ---
 
@@ -77,12 +86,27 @@ git clone https://github.com/ShakalBhau0001/rsa-algorithm-python.git
 cd rsa-algorithm-python
 ```
 
-### 3️⃣ Run the program
+### 4️⃣ Install Dependencies
+
 ```bash
-python app.py
+pip install rich
 ```
 
-### 4️⃣ Follow the prompts
+## 5️⃣ Running the Project
+
+### Basic CLI Version
+
+```bash
+python main.py
+```
+
+## Rich Interactive Version
+
+```bash
+python interactive.py
+```
+
+### 6️⃣ Follow the prompts for Basic CLI Version
 - Enter two prime numbers
 - Enter a numeric message smaller than `n`
 - View generated keys, encrypted message, and decrypted output
@@ -105,8 +129,9 @@ python app.py
 - Support larger primes
 - Implement padding schemes
 - Add file encryption support
-- Create GUI version
-- Improve error handling
+- Support text message encryption
+- Export generated keys to files
+- Support larger key sizes
 
 ---
 
@@ -122,6 +147,12 @@ It does **not provide real-world cryptographic security** and must not be used i
 > **Developer: Shakal Bhau**
 
 > **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
+
+---
+
+## 📸 Preview
+
+![RSA Rich CLI](assets/screenshot.png)
 
 ---
 
