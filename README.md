@@ -14,7 +14,7 @@ rsa-algorithm-python/
 │
 ├── app.py              # Clean CLI Version
 ├── interactive.py      # Rich CLI Version
-├── requirements.txt    # Project Requirements
+├── requirements.txt    # Project Dependancies
 ├── LICENSE             # Project license
 └── README.md           # Project documentation
 ```
@@ -61,6 +61,13 @@ rsa-algorithm-python/
 
 ---
 
+### ⚡ Dual Mode Support
+
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and panels
+
+---
+
 ## 📌 Purpose of This Project
 
 This project is built to:
@@ -92,15 +99,21 @@ cd rsa-algorithm-python
 pip install rich
 ```
 
-## 5️⃣ Running the Project
-
-### Basic CLI Version
+**OR**
 
 ```bash
-python main.py
+pip install -r requirements.txt
 ```
 
-## Rich Interactive Version
+### 5️⃣ Running the Project
+
+#### Basic CLI Version
+
+```bash
+python app.py
+```
+
+#### Rich Interactive Version
 
 ```bash
 python interactive.py
@@ -142,17 +155,17 @@ It does **not provide real-world cryptographic security** and must not be used i
 
 ---
 
+## 📸 Preview
+
+![Rich CLI Preview](assets/screenshot.png)
+
+---
+
 ## 🪪 Author
 
 > **Developer: Shakal Bhau**
 
 > **GitHub: [ShakalBhau0001](https://github.com/ShakalBhau0001)**
-
----
-
-## 📸 Preview
-
-![RSA Rich CLI](assets/screenshot.png)
 
 ---
 
