@@ -48,6 +48,11 @@ rsa-algorithm-python/
 - Styled panels for encryption/decryption results
 - Better user experience and readability
 
+### ⚡ Dual Mode Support
+
+- 🧼 Basic CLI → Lightweight, no dependencies
+- 🎨 Rich CLI → Enhanced UI with colors and panels
+
 ---
 
 ## 🛠 Technologies Used
@@ -58,13 +63,6 @@ rsa-algorithm-python/
 | **math.gcd**           | **Valid public key selection**  |
 | **Rich**                   | **Interactive CLI interface**    |
 | **Modular Arithmetic**     | **RSA operations**               |
-
----
-
-### ⚡ Dual Mode Support
-
-- 🧼 Basic CLI → Lightweight, no dependencies
-- 🎨 Rich CLI → Enhanced UI with colors and panels
 
 ---
 
