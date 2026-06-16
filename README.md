@@ -155,7 +155,7 @@ It does **not provide real-world cryptographic security** and must not be used i
 
 ## 📸 Preview
 
-![Rich CLI Preview](assets/screenshot.png)
+![Rich CLI Preview](assets/RSA.png)
 
 ---
 
